@@ -1,11 +1,9 @@
 # Two-Deck DJ Player
-
 A DJ application built with JUCE and C++. Two independent decks play at the same time and are mixed to stereo output. Each deck has transport controls, a waveform, a three-band EQ, and a reverb section.
 
 ## Features
 
 Each deck can:
-
 - Load an audio file with **LOAD**, or by dragging a file onto the deck
 - Play and stop the loaded track
 - Scrub position with the position knob
@@ -17,14 +15,10 @@ Each deck can:
 Both decks share one mixer, so they play together through the same output.
 
 ## Requirements
-
-This folder is source code. There is no `NewProject.exe` until you compile it.
-
 - JUCE
 - Visual Studio 2022 (Windows), Xcode (macOS)
 
 ## How to use
-
 1. Launch the app. The window is split into a left deck and a right deck.
 2. Click **LOAD** on a deck and choose a file, or drop a file onto that deck. The waveform appears when the file loads.
 3. Click **PLAY** to start. The button label switches to **STOP**. Pressing play with nothing loaded shows a warning.
